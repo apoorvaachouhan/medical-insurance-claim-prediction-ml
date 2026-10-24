@@ -1,0 +1,10 @@
+services:
+  streamlit:
+    build: .
+    ports: ["8501:8501"]
+    restart: unless-stopped
+  api:
+    build: .
+    command: gunicorn -w 2 -b 0.0.0.0:5000 app.api:app
+    ports: ["5000:5000"]
+    restart: unless-stopped

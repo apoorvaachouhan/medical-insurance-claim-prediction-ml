@@ -1,0 +1,8 @@
+{
+  "model": "Gradient Boosting",
+  "cv_rmse": 4577.60143410903,
+  "test_rmse": 4364.584974894388,
+  "test_mae": 2543.373669375953,
+  "test_r2": 0.8772962469964962,
+  "registry_version": "1"
+}

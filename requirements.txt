@@ -1,0 +1,13 @@
+# Training / experimentation
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+matplotlib
+mlflow>=2.14
+joblib
+# Serving
+flask
+gunicorn
+streamlit
